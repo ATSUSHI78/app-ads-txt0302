@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SizeSync Japan サポート窓口</title>
+    <title>SizeSync Japan Support</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -17,48 +17,72 @@
         }
         .card {
             background-color: #161b22;
-            padding: 2rem;
-            border-radius: 12px;
+            padding: 2.5rem;
+            border-radius: 16px;
             border: 1px solid #30363d;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.4);
             text-align: center;
-            max-width: 450px;
+            max-width: 480px;
             width: 90%;
         }
         h1 {
             color: #f0f6fc;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             margin-bottom: 1.5rem;
+            font-weight: 700;
         }
         p {
-            font-size: 0.95rem;
+            font-size: 1rem;
             line-height: 1.6;
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
+            color: #8b949e;
         }
-        a {
+        .links {
+            margin-top: 2rem;
+        }
+        .btn {
+            display: block;
+            background-color: #238636;
+            color: white;
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #2ea043;
+        }
+        .secondary-link {
+            display: inline-block;
             color: #58a6ff;
             text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
         }
-        a:hover {
+        .secondary-link:hover {
             text-decoration: underline;
         }
         .footer {
-            margin-top: 2rem;
+            margin-top: 2.5rem;
             font-size: 0.8rem;
-            color: #8b949e;
+            color: #484f58;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>SizeSync Japan サポート窓口</h1>
-        <p>アプリに関するお問い合わせは、公式サポートサイトより受け付けております。</p>
-        <p><a href="https://sites.google.com/view/sizesync-jp/home">お問い合わせ（公式サポートサイト）</a></p>
-        <p>アプリの詳細やプライバシーポリシーについては、下記をご確認ください。</p>
-        <p><a href="https://sites.google.com/view/sizesync-jp/home">SizeSync Japan 公式サイト</a></p>
+        <h1>SizeSync Japan</h1>
+        <p>Thank you for using our app. For support, inquiries, or to view our Privacy Policy, please visit our official site.</p>
+        
+        <div class="links">
+            <a href="https://sites.google.com/view/sizesync-jp/home" class="btn">Visit Official Support Site</a>
+            <a href="https://sites.google.com/view/sizesync-jp/home" class="secondary-link">Privacy Policy & App Details</a>
+        </div>
         
         <div class="footer">
-            &copy; 2026 SizeSync Japan
+            &copy; 2026 SizeSync Japan. All rights reserved.
         </div>
     </div>
 </body>
